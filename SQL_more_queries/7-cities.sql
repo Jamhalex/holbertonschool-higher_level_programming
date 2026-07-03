@@ -1,5 +1,5 @@
 -- creates hbtn_0d_usa database and cities table with foreign keys to states
-CREATE DATABASEE IF NOT EXISTS hbtn_0d_usa;
+CREATE DATABASE IF NOT EXISTS hbtn_0d_usa;
 
 USE hbtn_0d_usa;
 
