@@ -1,6 +1,12 @@
--- Lists all cities with their state names using a single SELECT
-SELECT cities.id, cities.name, states.name
+-- Lists all cities contained in the database hbtn_0d_usa
+-- Each record displays: cities.id - cities.name - states.name
+-- Results sorted by cities.id in ascending order
+
+SELECT
+    cities.id,
+    cities.name,
+    states.name
 FROM cities
 INNER JOIN states
-ON cities.state_id =  state.id
-ORDER BY cities_id ASC;
+ON cities.state_id = states.id
+ORDER BY cities.id ASC;
