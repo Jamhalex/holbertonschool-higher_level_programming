@@ -1,4 +1,4 @@
-#!/home/jam/holbertonschool-higher_level_programming/python-object_relational_mapping/venv/bin/python3
+#!/home/jam/holbertonschool-higher_level_programming/python-object_relational_mapping/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
